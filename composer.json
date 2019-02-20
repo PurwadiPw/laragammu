@@ -1,5 +1,5 @@
 {
-    "name": "pw/gammu",
+    "name": "pw/laragammu",
     "description": "Gammu Notifications Driver",
     "homepage": "https://github.com/laravel-notification-channels/gammu",
     "license": "MIT",
@@ -52,5 +52,7 @@
     },
     "scripts": {
         "test": "phpunit"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
