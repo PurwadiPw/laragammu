@@ -1,12 +1,12 @@
 # Gammu Notifications Channel for Laravel 5.3
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/gammu.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/gammu)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/pw/gammu.svg?style=flat-square)](https://packagist.org/packages/pw/gammu)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://travis-ci.org/laravel-notification-channels/gammu.svg?branch=master)](https://travis-ci.org/laravel-notification-channels/gammu)
+[![Build Status](https://travis-ci.org/pw/gammu.svg?branch=master)](https://travis-ci.org/pw/gammu)
 [![StyleCI](https://styleci.io/repos/67163908/shield)](https://styleci.io/repos/67163908)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/cb9970f9-6d96-4412-b4bb-d93a43daac40.svg?style=flat-square)](https://insight.sensiolabs.com/projects/cb9970f9-6d96-4412-b4bb-d93a43daac40)
-[![Quality Score](https://img.shields.io/scrutinizer/g/laravel-notification-channels/gammu.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/gammu)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/gammu.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/gammu)
+[![Quality Score](https://img.shields.io/scrutinizer/g/pw/gammu.svg?style=flat-square)](https://scrutinizer-ci.com/g/pw/gammu)
+[![Total Downloads](https://img.shields.io/packagist/dt/pw/gammu.svg?style=flat-square)](https://packagist.org/packages/pw/gammu)
 
 This package makes it easy to send SMS notifications using [Gammu SMSD](https://wammu.eu/smsd/) with Laravel 5.3.
 
@@ -44,7 +44,7 @@ Under the hood, Gammu Api is using `gammu sendsms` command line.
 You can install the package via composer:
 
 ```console
-composer require laravel-notification-channels/gammu
+composer require pw/gammu
 ```
 
 You must install the service provider:
